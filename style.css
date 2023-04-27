@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+body {
+    font-family: 'Comfortaa', cursive;
+    padding-left: 1rem;
+}
+h1:nth-last-of-type() {
+    position: fixed;
+    top: 0;
+}
+#navbar {
+    position: fixed;
+    right: 1vw;
+    top: 4vh;
+    display: flex;
+    font-weight: bold;
+}
+#navbar > div {
+    margin: 0;
+    border-right: 2px solid black;
+    padding: 0 1rem 0 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#mainfirst {
+
+    height: 35vh;
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+#imgone {
+    position: relative;
+    height: 10vh;
+    width: 50vw;
+    top: 10px;
+    left: 5vw;
+}
+#imgone > img {
+    border-radius: 50%;
+    height: 30vh
+}
+#learnmore {
+    position: absolute;
+    bottom: 110px;
+    left: 1rem;
+    
+
+}
+.button {
+    position: relative;
+    height: 5vh;
+    width: 300px;
+    box-shadow: 0, 4px, 8px, rgba(0, 0, 0, 0.3);
+    font-family: 'Comfortaa', cursive;
+    background-image: linear-gradient(to right, #ff5733, #ffbd33)
+}
+#whyme {
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50vh;
+    width: 70vw;
+    text-align: center;
+}
+#ultrakill {
+    position: relative;
+    bottom: 0;
+    margin-top: 8vh;
+}
+#speechbubble {
+    position: absolute;
+    height: 100px;
+    left: 30vw;
+    top: 12vh;
+    display: none;
+}
+/*  #dbff33, #33ffbd */
